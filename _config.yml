@@ -1,0 +1,32 @@
+# Dependencies
+gems:             [jekyll-paginate]
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Nabeel Eledroos
+tagline:          'Everything about me'
+# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'A Computer Science student at UMass Amherst, with in interest in all sorts of things.'
+url:              http://nabeel-eledroos.github.io
+baseurl:          /
+
+author:
+  name:           'Nabeel Eledroos'
+  url:            https://github.com/nabeel-eledroos
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+links:
+  git:            https://github.com/nabeel-eledroos
+  linkedin:       https://www.linkedin.com/in/nabeeleledroos/
