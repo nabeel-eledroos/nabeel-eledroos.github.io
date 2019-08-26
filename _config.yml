@@ -17,6 +17,7 @@ baseurl:          /
 
 author:
   name:           'Nabeel Eledroos'
+  email:          nabeel@eledroos.net
   url:            https://github.com/nabeel-eledroos
 
 paginate:         5
