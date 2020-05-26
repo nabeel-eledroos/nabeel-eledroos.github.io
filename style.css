@@ -1,3 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Andale Mono, monospace;
+  /* margin: 0; */
+}
+
 .header {
   padding: 40px;
   text-align: center;
@@ -9,8 +29,16 @@
   font-size: 40px;
 }
 
-p {
+h2 {
   color: black;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: gray;
 }
 
 .navbar {
@@ -35,12 +63,6 @@ p {
 .navbar a:hover {
   background-color: #ddd;
   color: black;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: Andale Mono, monospace;
-  margin: 0;
 }
 
 .row { 
