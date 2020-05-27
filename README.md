@@ -1,3 +1,3 @@
 # Nabeel's personal website
 
-[nabeel-eledroos.github.io](nabeel-eledroos.github.io)
+View Here: [nabeel-eledroos.github.io](https://nabeel-eledroos.github.io)
