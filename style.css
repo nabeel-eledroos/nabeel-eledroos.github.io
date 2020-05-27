@@ -10,17 +10,17 @@ a {
 
 a:hover {
   color: inherit;
+  text-decoration: underline;
 }
 
 * {
   box-sizing: border-box;
   font-family: Andale Mono, monospace;
-  /* margin: 0; */
 }
 
 .header {
-  padding: 40px;
-  text-align: center;
+  padding: 20px; /* 20px; */
+  text-align: center;/* left; */
   background: white /* rgba(255, 136, 136, 0.808)*/; 
   color: black /*white*/;
 }
