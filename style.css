@@ -18,6 +18,17 @@ a:hover {
   text-decoration: underline;
 }
 
+.icons {
+  font-size: 48px;
+  color: gray;
+  padding: 2px
+}
+
+i:hover {
+  font-size: 50px;
+  color: black;
+}
+
 .center_img {
   display: block;
   margin-left: auto;
@@ -86,21 +97,21 @@ p {
 }
 
 .side {
-  flex: 30%;
+  flex: 10%;
   background-color: #f1f1f1;
   padding: 20px;
   color: gray
 }
 
 .main { 
-  flex: 70%;
+  flex: 90%;
   background-color: white;
   padding: 20px;
   color: gray
 }
 
 .footer {
-  padding: 5px;
+  padding: 15px;
   text-align: center;
   background: #ddd;
   color: black
