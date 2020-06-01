@@ -29,15 +29,14 @@ i:hover {
   color: black;
 }
 
-.center_img {
+.home_img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  margin-left: 15px;
   margin-bottom: 0.5cm;
-  /* width: 75%;
-  height: 75%; */
-  max-width: 75%;
+  max-width: 65%;
   height: auto;
+  float:right;
 }
 
 .center_text {
