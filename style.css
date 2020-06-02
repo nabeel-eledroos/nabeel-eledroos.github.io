@@ -19,14 +19,14 @@ a:hover {
 }
 
 .icons {
-  font-size: 48px;
+  font-size: 45px;
   color: gray;
-  padding: 2px
 }
 
 i:hover {
-  font-size: 50px;
+  font-size: 48px;
   color: black;
+
 }
 
 .home_img {
@@ -34,7 +34,7 @@ i:hover {
   /* margin-left: auto; */
   margin-left: 15px;
   margin-bottom: 0.5cm;
-  max-width: 65%;
+  max-width: 40%;
   height: auto;
   float:right;
 }
@@ -78,11 +78,6 @@ p {
   text-align: center;
   padding: 14px 20px; 
   text-decoration: none; 
-}
-
-
-.navbar a.right {
-  float: right;
 }
 
 .navbar a:hover {
