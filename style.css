@@ -18,26 +18,11 @@ a:hover {
   text-decoration: underline;
 }
 
-.icons {
-  text-align: center;
-  font-size: 55px;
-  color: gray;
-}
-
-i {
-  padding-bottom: 4px;
-}
-
-i:hover {
-  font-size: 60px;
-  color: white;
-}
-
 .home_img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5px;
+  margin-bottom: 0.5cm;
   max-width: 40%;
   height: auto;
   /* float:right; */
@@ -48,41 +33,46 @@ i:hover {
   font-size: 16px;
 }
 
-.headers{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.header1 {
-  flex: 90%;
-  padding: 20px;
+.header {
+  padding-top: 20px;
+  padding-bottom: 5px;
   text-align: center;
-  background: black;
+  background: white;
   color:gray;
 }
 
-.header2 {
-  flex: 10%;
-  padding: 20px;
-  text-align: center;
-  background: black;
+.header heads {
+  font-size: 60px;
 }
 
-.header1 h1 {
+.footer {
+  padding-top: 1px;
+  text-align: center;
+  background: white;
+}
+
+.icons {
+  text-align: center;
   font-size: 40px;
+  color: gray;
+}
+
+i:hover {
+  font-size: 41px;
+  color: black;
 }
 
 h2 {
-  color: gray;
+  color: black;
 }
 
 h2:hover {
   text-decoration: underline;
 }
 
-p {
+/* p {
   color: gray;
-}
+} */
 
 .navbar {
   overflow: hidden;
@@ -119,16 +109,9 @@ p {
 
 .main { 
   flex: 90%;
-  background-color: black;
+  background-color: white;
   padding: 20px;
   color: gray
-}
-
-.footer {
-  padding: 15px;
-  text-align: center;
-  background: black;
-
 }
 
 @media screen and (max-width: 700px) {
