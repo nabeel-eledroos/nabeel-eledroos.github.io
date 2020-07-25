@@ -20,12 +20,9 @@ a:hover {
 
 .home_img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0.5cm;
-  max-width: 40%;
+  margin: 5px auto;
+  max-width: 45%;
   height: auto;
-  /* float:right; */
 }
 
 .center_text {
@@ -45,15 +42,10 @@ a:hover {
   font-size: 60px;
 }
 
-.footer {
-  padding-top: 1px;
-  text-align: center;
-  background: white;
-}
-
 .icons {
   text-align: center;
   font-size: 40px;
+  padding-top: 10px;
   color: gray;
 }
 
@@ -70,44 +62,40 @@ h2:hover {
   text-decoration: underline;
 }
 
-/* p {
-  color: gray;
-} */
-
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+  background-color: white;
+  width: auto;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px 0px;
+  font-size: 16px;
 }
 
 .navbar a {
-  float: left; 
-  display: block; 
-  color: white; 
+  color: black;
   text-align: center;
-  padding: 14px 20px; 
-  text-decoration: none; 
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  text-decoration: underline;
+  color: gray;
 }
 
-.row { 
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
 .side {
   flex: 10%;
-  background-color: black;
-  padding:20px 5px;
-  /* padding-left: 10px;
-  padding-right: 10px; */
+  background-color: white;
+  padding: 20px 5px;
   color: gray
 }
 
-.main { 
+.main {
   flex: 90%;
   background-color: white;
   padding: 20px;
