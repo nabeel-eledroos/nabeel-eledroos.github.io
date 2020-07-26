@@ -26,6 +26,8 @@ a:hover {
 }
 
 .center_text {
+  max-width: 60%;
+  margin: 0 auto;
   text-align: center;
   font-size: 16px;
 }
@@ -44,13 +46,13 @@ a:hover {
 
 .icons {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   padding-top: 10px;
   color: gray;
 }
 
 i:hover {
-  font-size: 41px;
+  font-size: 46px;
   color: black;
 }
 
@@ -68,7 +70,7 @@ h2:hover {
   text-align: center;
   margin: 0px auto;
   padding: 10px 0px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .navbar a {
@@ -83,34 +85,8 @@ h2:hover {
   color: gray;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.side {
-  flex: 10%;
-  background-color: white;
-  padding: 20px 5px;
-  color: gray
-}
-
 .main {
-  flex: 90%;
   background-color: white;
   padding: 20px;
   color: gray
-}
-
-@media screen and (max-width: 700px) {
-  .row { 
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
 }
